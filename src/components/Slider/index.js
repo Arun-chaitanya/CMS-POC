@@ -8,12 +8,11 @@ function SliderDemo(props) {
     var settings = {
         dots: true
     };
-    const compProps = props.block.componentProps;
-    console.log(compProps);
+    const slides = props.block.slides;
     return (       
     <div className="slider-container">
          <Slider {...settings}>
-            {compProps.map(comp => 
+            {slides.map(comp => 
                 <div>
                     <img src={comp.img} />
                 </div>

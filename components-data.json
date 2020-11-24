@@ -22,7 +22,7 @@
         {
             "_uid": "5",
             "component": "slider",
-            "componentProps": [
+            "slides": [
                 {
                     "img": "https://via.placeholder.com/350x300"
                 },
