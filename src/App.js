@@ -13,9 +13,9 @@ function App() {
 
   useEffect(() => {
     console.log('getting components !');
-    fetch('http://localhost:9000/data')
+    fetch('https://my-json-server.typicode.com/sinhaaayush01/CMS-POC/db')
     .then(response => response.json())
-    .then(data => setComponents(data));
+    .then(data => setComponents(data.data));
   },[])
 
   return (
