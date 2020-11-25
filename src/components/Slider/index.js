@@ -20,7 +20,7 @@ function SliderDemo(props) {
          <Slider {...settings}>
             {slides.map(comp => 
                 <div key={comp.img}>
-                    <img src={comp.img} />
+                    <img className="responsive-image" src={comp.img} />
                 </div>
             )}
          </Slider>
