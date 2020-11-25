@@ -1,11 +1,11 @@
 import React from "react";
 
+import "./styles.scss";
+
 function Foo1(props) {
     return (
         <div className="foo1">
-            <h2>{props.block.headline}</h2>
-                Hi I'm a {props.block.headline} component.
-            <hr />
+            <img src={props.block.headline} />
         </div>
     )
 }
