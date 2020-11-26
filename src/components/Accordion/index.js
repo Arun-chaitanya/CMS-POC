@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './styles.scss';
 
-function index(props) {
+function Index(props) {
     const [isOpen, setOpen] = useState(false);
 
   return (
@@ -21,4 +21,4 @@ function index(props) {
   );
 }
 
-export default index;
+export default Index;
