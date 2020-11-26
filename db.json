@@ -5,7 +5,7 @@
             "component": "slider",
             "slides": [
                 {
-                    "img": "https://via.placeholder.com/700x350"
+                    "img": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/22/61412c57-3877-43fd-abe0-1374e18474d21606055228138-Only_Desk_Banner.jpg"
                 },
                 {
                     "img": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/22/61412c57-3877-43fd-abe0-1374e18474d21606055228138-Only_Desk_Banner.jpg"
@@ -32,6 +32,24 @@
             "_uid": "5",
             "component": "foo2",
             "headline": "Another Component"
+        },
+        {
+            "_uid": "6",
+            "component": "slider",
+            "slides": [
+                {
+                    "img": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/22/61412c57-3877-43fd-abe0-1374e18474d21606055228138-Only_Desk_Banner.jpg"
+                },
+                {
+                    "img": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/22/61412c57-3877-43fd-abe0-1374e18474d21606055228138-Only_Desk_Banner.jpg"
+                },
+                {
+                    "img": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/20/f7a46121-8944-4404-9ddf-601ad1a834341605856164199-desktop-banner-unisex-withdiscount.jpg"
+                },
+                {
+                    "img": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/23/8dff365a-8fd2-4636-8064-363d23f6a3ee1606145720729-Anouk_Desk_Banner.jpg"
+                }
+                ]
         }
     ]
 }
