@@ -1,3 +1,43 @@
 .footer {
-    background-color: #FAFBFC;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    background-color: rgb(3,44,68);
+    padding: 2.2rem 6rem;
 }
+
+.footer__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__content > div{
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+.footer__topic{
+    font-weight: 1000;
+    font-size: 14px;
+    margin-bottom: 3rem;
+}
+
+.footer__subtopic{
+    font-weight: 500;
+}
+
+.footer__subtopic:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer__contentLogo{
+    padding-top: 15px !important;
+}
+img{
+    width: 153px;
+    height: auto;
+}
+
+
