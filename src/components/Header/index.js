@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <div className="header">
             <img src={logo} />
-            <h1>{header}</h1>
+            <h1></h1>
         </div>
     )
 }
