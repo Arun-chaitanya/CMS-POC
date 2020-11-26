@@ -1,0 +1,26 @@
+.faqs {
+    .faq__list {
+        @media (max-width: 600px) {
+            display: block ;
+        }
+
+        list-style: none;
+        max-width: 90%;
+        padding-left: 0;
+        text-align: left;
+        .faq__listItem {
+            padding: 15px;
+
+            .faq__question {
+                padding-bottom: 10px;
+            }
+        }
+
+        span {
+            display: flex;
+            p {
+                margin: 0;
+            }
+        }
+    }
+}

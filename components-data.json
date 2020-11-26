@@ -5,7 +5,7 @@
             "component": "slider",
             "slides": [
                 {
-                    "img": "https://via.placeholder.com/700x350"
+                    "img": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/22/61412c57-3877-43fd-abe0-1374e18474d21606055228138-Only_Desk_Banner.jpg"
                 },
                 {
                     "img": "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/22/61412c57-3877-43fd-abe0-1374e18474d21606055228138-Only_Desk_Banner.jpg"
@@ -30,8 +30,35 @@
         },
         {
             "_uid": "5",
-            "component": "foo2",
-            "headline": "Another Component"
+            "component": "faqs",
+            "data": [
+                {
+                    "question": "Question A",
+                    "answer": "Answer A"
+                },
+                {
+                    "question": "Question B",
+                    "answer": "Answer B"
+                },
+                {
+                    "question": "Question C",
+                    "answer": "Answer C"
+                },
+                {
+                    "question": "Question D",
+                    "answer": "Answer D"
+                }]
+        },
+        {
+            "_uid": "6",
+            "component": "banner",
+            "data": {
+                "img": "https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/drive-delivery-component/Drive-Forward-Program-BHP-Desktop.jpg.image.1440.jpg",
+                "bannerContent":{
+                    "heading": "I am Heading",
+                    "content": "Fugiat officia qui Lorem velit nulla mollit pariatur nisi laborum laborum dolor aliquip voluptate aliqua. Sunt dolore qui eu occaecat esse voluptate irure aliquip esse mollit do veniam incididunt esse. Aliquip enim veniam adipisicing ipsum magna dolore mollit non esse sit qui ad magna dolor."
+                }
+            }
         }
     ]
 }

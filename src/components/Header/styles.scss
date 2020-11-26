@@ -2,9 +2,18 @@
     text-align: center;
     text-transform: capitalize;
     font-family: monospace;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
     img {
-        width: 160px;
+        width: 150px;
         float: left;
-        margin: 20px;
+        margin: 5px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }

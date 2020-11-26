@@ -13,15 +13,17 @@ function App() {
 
   useEffect(() => {
     console.log('getting components !');
-    fetch('https://my-json-server.typicode.com/sinhaaayush01/CMS-POC/db')
+    fetch('http://localhost:9000/data')
     .then(response => response.json())
-    .then(data => setComponents(data.data));
+    .then(data => setComponents(data));
   },[])
 
   return (
     <div className="App">
       <Header logo={logoSrc} header={'Offers'} />
-        {components.map(block => RenderComponents(block))}
+        <div className="cms-components">
+            {components.map(block => RenderComponents(block))}
+        </div>
       <Footer />
     </div>
   );
