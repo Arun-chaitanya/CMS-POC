@@ -59,6 +59,32 @@
                     "content": "Fugiat officia qui Lorem velit nulla mollit pariatur nisi laborum laborum dolor aliquip voluptate aliqua. Sunt dolore qui eu occaecat esse voluptate irure aliquip esse mollit do veniam incididunt esse. Aliquip enim veniam adipisicing ipsum magna dolore mollit non esse sit qui ad magna dolor."
                 }
             }
+        },
+        {
+            "_uid": "7",
+            "component": "imagetiles",
+            "data": [
+                {
+                    "imageSrc": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9",
+                    "description": "Minimum 40% off"
+                },
+                {
+                    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/61gmUIuS01L._SL1500_.jpg",
+                    "description": "Minimum 10% off"
+                },
+                {
+                    "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/61JEbzmJi4L._SL1500_.jpg",
+                    "description": "Minimum 25% off"
+                },
+                {
+                    "imageSrc": "https://contents.mediadecathlon.com/p1484240/ab565f3675dbdd7e3c486175e2c16583/p1484240.jpg",
+                    "description": "Minimum 50% off"
+                },
+                {
+                    "imageSrc": "https://target.scene7.com/is/image/Target/GUEST_8367292d-73ff-4b09-b2de-b02cabd8e98c?wid=488&hei=488&fmt=pjpeg",
+                    "description": "Minimum 30% off"
+                }
+            ]
         }
     ]
 }

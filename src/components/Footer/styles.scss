@@ -2,14 +2,16 @@
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
     color: white;
     text-align: left;
-    background-color: rgb(3,44,68);
-    padding: 2.2rem 6rem;
+    
+    
 }
 
 .footer__content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 2.2rem 6rem;
+    background-color: rgb(3,44,68);
 }
 
 .footer__content > div{
@@ -34,10 +36,8 @@
 
 .footer__contentLogo{
     padding-top: 15px !important;
+    img{
+        width: 153px;
+        height: auto;
+    }
 }
-img{
-    width: 153px;
-    height: auto;
-}
-
-

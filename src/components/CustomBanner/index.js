@@ -6,7 +6,7 @@ function index(props) {
     return (
         <>
             <div className="custom-banner">
-                <img src={data.img} />
+                <img src={data.img} alt=""/>
                 <div className="banner-content">
                     <h3>{data.bannerContent.heading}</h3>
                     <p>
